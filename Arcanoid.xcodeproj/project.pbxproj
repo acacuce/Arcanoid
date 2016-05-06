@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056B1F371CC6D776008182D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B1F361CC6D776008182D0 /* main.m */; };
+		056B1F3A1CC6D776008182D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B1F391CC6D776008182D0 /* AppDelegate.m */; };
+		056B1F3D1CC6D776008182D0 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B1F3C1CC6D776008182D0 /* GameScene.m */; };
+		056B1F3F1CC6D776008182D0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 056B1F3E1CC6D776008182D0 /* GameScene.sks */; };
+		056B1F421CC6D776008182D0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B1F411CC6D776008182D0 /* GameViewController.m */; };
+		056B1F451CC6D776008182D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056B1F431CC6D776008182D0 /* Main.storyboard */; };
+		056B1F471CC6D776008182D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056B1F461CC6D776008182D0 /* Assets.xcassets */; };
+		056B1F4A1CC6D776008182D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056B1F481CC6D776008182D0 /* LaunchScreen.storyboard */; };
+		056B1F551CC6D776008182D0 /* ArcanoidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B1F541CC6D776008182D0 /* ArcanoidTests.m */; };
+		056B1F601CC6D776008182D0 /* ArcanoidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056B1F5F1CC6D776008182D0 /* ArcanoidUITests.m */; };
+		056B1F701CC6DBC6008182D0 /* DerevoOpora.png in Resources */ = {isa = PBXBuildFile; fileRef = 056B1F6E1CC6DBC6008182D0 /* DerevoOpora.png */; };
+		056B1F711CC6DBC6008182D0 /* desert_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 056B1F6F1CC6DBC6008182D0 /* desert_BG.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056B1F511CC6D776008182D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056B1F2A1CC6D776008182D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056B1F311CC6D776008182D0;
+			remoteInfo = Arcanoid;
+		};
+		056B1F5C1CC6D776008182D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056B1F2A1CC6D776008182D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056B1F311CC6D776008182D0;
+			remoteInfo = Arcanoid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056B1F321CC6D776008182D0 /* Arcanoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arcanoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056B1F361CC6D776008182D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056B1F381CC6D776008182D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		056B1F391CC6D776008182D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		056B1F3B1CC6D776008182D0 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		056B1F3C1CC6D776008182D0 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		056B1F3E1CC6D776008182D0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		056B1F401CC6D776008182D0 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		056B1F411CC6D776008182D0 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		056B1F441CC6D776008182D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		056B1F461CC6D776008182D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056B1F491CC6D776008182D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		056B1F4B1CC6D776008182D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056B1F501CC6D776008182D0 /* ArcanoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcanoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056B1F541CC6D776008182D0 /* ArcanoidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcanoidTests.m; sourceTree = "<group>"; };
+		056B1F561CC6D776008182D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056B1F5B1CC6D776008182D0 /* ArcanoidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcanoidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		056B1F5F1CC6D776008182D0 /* ArcanoidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcanoidUITests.m; sourceTree = "<group>"; };
+		056B1F611CC6D776008182D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056B1F6E1CC6DBC6008182D0 /* DerevoOpora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DerevoOpora.png; sourceTree = "<group>"; };
+		056B1F6F1CC6DBC6008182D0 /* desert_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desert_BG.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056B1F2F1CC6D776008182D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056B1F4D1CC6D776008182D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056B1F581CC6D776008182D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056B1F291CC6D776008182D0 = {
+			isa = PBXGroup;
+			children = (
+				056B1F341CC6D776008182D0 /* Arcanoid */,
+				056B1F531CC6D776008182D0 /* ArcanoidTests */,
+				056B1F5E1CC6D776008182D0 /* ArcanoidUITests */,
+				056B1F331CC6D776008182D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056B1F331CC6D776008182D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056B1F321CC6D776008182D0 /* Arcanoid.app */,
+				056B1F501CC6D776008182D0 /* ArcanoidTests.xctest */,
+				056B1F5B1CC6D776008182D0 /* ArcanoidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056B1F341CC6D776008182D0 /* Arcanoid */ = {
+			isa = PBXGroup;
+			children = (
+				056B1F6D1CC6DB76008182D0 /* SpriteKitImages */,
+				056B1F381CC6D776008182D0 /* AppDelegate.h */,
+				056B1F391CC6D776008182D0 /* AppDelegate.m */,
+				056B1F3B1CC6D776008182D0 /* GameScene.h */,
+				056B1F3C1CC6D776008182D0 /* GameScene.m */,
+				056B1F3E1CC6D776008182D0 /* GameScene.sks */,
+				056B1F401CC6D776008182D0 /* GameViewController.h */,
+				056B1F411CC6D776008182D0 /* GameViewController.m */,
+				056B1F431CC6D776008182D0 /* Main.storyboard */,
+				056B1F461CC6D776008182D0 /* Assets.xcassets */,
+				056B1F481CC6D776008182D0 /* LaunchScreen.storyboard */,
+				056B1F4B1CC6D776008182D0 /* Info.plist */,
+				056B1F351CC6D776008182D0 /* Supporting Files */,
+			);
+			path = Arcanoid;
+			sourceTree = "<group>";
+		};
+		056B1F351CC6D776008182D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056B1F361CC6D776008182D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		056B1F531CC6D776008182D0 /* ArcanoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				056B1F541CC6D776008182D0 /* ArcanoidTests.m */,
+				056B1F561CC6D776008182D0 /* Info.plist */,
+			);
+			path = ArcanoidTests;
+			sourceTree = "<group>";
+		};
+		056B1F5E1CC6D776008182D0 /* ArcanoidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				056B1F5F1CC6D776008182D0 /* ArcanoidUITests.m */,
+				056B1F611CC6D776008182D0 /* Info.plist */,
+			);
+			path = ArcanoidUITests;
+			sourceTree = "<group>";
+		};
+		056B1F6D1CC6DB76008182D0 /* SpriteKitImages */ = {
+			isa = PBXGroup;
+			children = (
+				056B1F6E1CC6DBC6008182D0 /* DerevoOpora.png */,
+				056B1F6F1CC6DBC6008182D0 /* desert_BG.png */,
+			);
+			name = SpriteKitImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056B1F311CC6D776008182D0 /* Arcanoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056B1F641CC6D776008182D0 /* Build configuration list for PBXNativeTarget "Arcanoid" */;
+			buildPhases = (
+				056B1F2E1CC6D776008182D0 /* Sources */,
+				056B1F2F1CC6D776008182D0 /* Frameworks */,
+				056B1F301CC6D776008182D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arcanoid;
+			productName = Arcanoid;
+			productReference = 056B1F321CC6D776008182D0 /* Arcanoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		056B1F4F1CC6D776008182D0 /* ArcanoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056B1F671CC6D776008182D0 /* Build configuration list for PBXNativeTarget "ArcanoidTests" */;
+			buildPhases = (
+				056B1F4C1CC6D776008182D0 /* Sources */,
+				056B1F4D1CC6D776008182D0 /* Frameworks */,
+				056B1F4E1CC6D776008182D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056B1F521CC6D776008182D0 /* PBXTargetDependency */,
+			);
+			name = ArcanoidTests;
+			productName = ArcanoidTests;
+			productReference = 056B1F501CC6D776008182D0 /* ArcanoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		056B1F5A1CC6D776008182D0 /* ArcanoidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056B1F6A1CC6D776008182D0 /* Build configuration list for PBXNativeTarget "ArcanoidUITests" */;
+			buildPhases = (
+				056B1F571CC6D776008182D0 /* Sources */,
+				056B1F581CC6D776008182D0 /* Frameworks */,
+				056B1F591CC6D776008182D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056B1F5D1CC6D776008182D0 /* PBXTargetDependency */,
+			);
+			name = ArcanoidUITests;
+			productName = ArcanoidUITests;
+			productReference = 056B1F5B1CC6D776008182D0 /* ArcanoidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056B1F2A1CC6D776008182D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Никита Солдатов";
+				TargetAttributes = {
+					056B1F311CC6D776008182D0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 297TYVA87M;
+					};
+					056B1F4F1CC6D776008182D0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 297TYVA87M;
+						TestTargetID = 056B1F311CC6D776008182D0;
+					};
+					056B1F5A1CC6D776008182D0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 297TYVA87M;
+						TestTargetID = 056B1F311CC6D776008182D0;
+					};
+				};
+			};
+			buildConfigurationList = 056B1F2D1CC6D776008182D0 /* Build configuration list for PBXProject "Arcanoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056B1F291CC6D776008182D0;
+			productRefGroup = 056B1F331CC6D776008182D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056B1F311CC6D776008182D0 /* Arcanoid */,
+				056B1F4F1CC6D776008182D0 /* ArcanoidTests */,
+				056B1F5A1CC6D776008182D0 /* ArcanoidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056B1F301CC6D776008182D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056B1F3F1CC6D776008182D0 /* GameScene.sks in Resources */,
+				056B1F4A1CC6D776008182D0 /* LaunchScreen.storyboard in Resources */,
+				056B1F471CC6D776008182D0 /* Assets.xcassets in Resources */,
+				056B1F711CC6DBC6008182D0 /* desert_BG.png in Resources */,
+				056B1F701CC6DBC6008182D0 /* DerevoOpora.png in Resources */,
+				056B1F451CC6D776008182D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056B1F4E1CC6D776008182D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056B1F591CC6D776008182D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056B1F2E1CC6D776008182D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056B1F421CC6D776008182D0 /* GameViewController.m in Sources */,
+				056B1F3A1CC6D776008182D0 /* AppDelegate.m in Sources */,
+				056B1F3D1CC6D776008182D0 /* GameScene.m in Sources */,
+				056B1F371CC6D776008182D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056B1F4C1CC6D776008182D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056B1F551CC6D776008182D0 /* ArcanoidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056B1F571CC6D776008182D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056B1F601CC6D776008182D0 /* ArcanoidUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056B1F521CC6D776008182D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056B1F311CC6D776008182D0 /* Arcanoid */;
+			targetProxy = 056B1F511CC6D776008182D0 /* PBXContainerItemProxy */;
+		};
+		056B1F5D1CC6D776008182D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056B1F311CC6D776008182D0 /* Arcanoid */;
+			targetProxy = 056B1F5C1CC6D776008182D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		056B1F431CC6D776008182D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056B1F441CC6D776008182D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		056B1F481CC6D776008182D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056B1F491CC6D776008182D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		056B1F621CC6D776008182D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		056B1F631CC6D776008182D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056B1F651CC6D776008182D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arcanoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acacuce.Arcanoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		056B1F661CC6D776008182D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arcanoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acacuce.Arcanoid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		056B1F681CC6D776008182D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ArcanoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acacuce.ArcanoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcanoid.app/Arcanoid";
+			};
+			name = Debug;
+		};
+		056B1F691CC6D776008182D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArcanoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acacuce.ArcanoidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcanoid.app/Arcanoid";
+			};
+			name = Release;
+		};
+		056B1F6B1CC6D776008182D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = ArcanoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acacuce.ArcanoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Arcanoid;
+			};
+			name = Debug;
+		};
+		056B1F6C1CC6D776008182D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArcanoidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = acacuce.ArcanoidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Arcanoid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056B1F2D1CC6D776008182D0 /* Build configuration list for PBXProject "Arcanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056B1F621CC6D776008182D0 /* Debug */,
+				056B1F631CC6D776008182D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056B1F641CC6D776008182D0 /* Build configuration list for PBXNativeTarget "Arcanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056B1F651CC6D776008182D0 /* Debug */,
+				056B1F661CC6D776008182D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		056B1F671CC6D776008182D0 /* Build configuration list for PBXNativeTarget "ArcanoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056B1F681CC6D776008182D0 /* Debug */,
+				056B1F691CC6D776008182D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		056B1F6A1CC6D776008182D0 /* Build configuration list for PBXNativeTarget "ArcanoidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056B1F6B1CC6D776008182D0 /* Debug */,
+				056B1F6C1CC6D776008182D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056B1F2A1CC6D776008182D0 /* Project object */;
+}
